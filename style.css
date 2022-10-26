@@ -1,5 +1,6 @@
 * {
-
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2vh;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 h1, h2, h3 {
     margin: 6%;
     margin-top: 10%;
-    font-size: 2.25vh;
+    font-size: 2.5vh;
 }
 
 nav {
@@ -22,7 +23,7 @@ nav {
 }
 
 .aside {
-    color: #8a9198;
+    color: #bbc3cb;
     height: 100%;
     width: 14.5%;
     display: flex;
@@ -55,7 +56,11 @@ nav {
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 50%;
 	background-image: var(--img-url), linear-gradient(to bottom right, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-    /* animation: spin 5s linear infinite; */
+}
+
+.profile-pic:hover {
+    animation: spin 5s linear infinite;
+    cursor: pointer;
 }
 
 .aside-section {
@@ -70,13 +75,18 @@ nav {
     padding: 5%;
 }
 
-.aside-icon-containers:hover .aside-icon-text:hover {
+.aside-icon-containers:hover .aside-icon-text {
     background: -webkit-linear-gradient(left, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 250% 250%;
     -webkit-animation: gradient 5s ease infinite;
     cursor: pointer;
+}
+
+.aside-icon-containers:hover .aside-icons {
+    cursor: pointer;
+    filter: invert(76%) sepia(43%) saturate(3406%) hue-rotate(335deg) brightness(99%) contrast(95%);
 }
 
 .aside-icons {
@@ -89,7 +99,6 @@ nav {
     padding: 3%;
     text-align: left;
     width: 70%;
-    font-size: 1.5vh;
 }
 
 .aside-line {
@@ -100,7 +109,7 @@ nav {
 
 .search-section {
     display: flex;
-    height: 10%;
+    height: 12%;
     width: 100%;
 }
 
@@ -109,8 +118,7 @@ nav {
 }
 
 .search-icons {
-    width: 2%;
-    padding: 2%;
+    padding: 2.5%;
     border-bottom: 1px solid grey;
     border-right: 1px solid grey;
 }
