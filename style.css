@@ -1,6 +1,6 @@
 * {
     font-family: 'Trebuchet MS', sans-serif;
-    font-size: 2vh;
+    font-size: 1.75vh;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 h1, h2, h3 {
     margin: 6%;
     margin-top: 10%;
-    font-size: 2.5vh;
+    font-size: 2.25vh;
 }
 
 nav {
@@ -34,7 +34,6 @@ nav {
 }
 
 .profile {
-    font-size: 2.25vh;
     width: 100%;
     padding-bottom: 3%;
     display: flex;
@@ -75,7 +74,7 @@ nav {
     padding: 5%;
 }
 
-.aside-icon-containers:hover .aside-icon-text {
+.aside-icon-containers:hover .aside-icon-text, .checkbox[type=checkbox] {
     background: -webkit-linear-gradient(left, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -113,11 +112,6 @@ nav {
     height: 2.5vh;
 }
 
-.aside-icon-containers:hover input[type=checkbox] {
-    /* accent-color: #f37055; */
-    cursor: pointer;
-}
-
 .search-section {
     display: flex;
     height: 8%;
@@ -152,11 +146,25 @@ nav {
     margin-right: 10%;
 }
 
+.info-buttons-active {
+     width: 14vh;
+     height: 8vh;
+     border: gray solid .6vh;
+     border-radius: 8vh;
+     opacity: .5;
+}
+
 .info-buttons {
     width: 8vh;
     height: 8vh;
-    border: gray solid 1vh;
+    border: gray solid .6vh;
     border-radius: 50%;
+    opacity: .5;
+}
+
+.info-buttons:hover, .info-buttons-active:hover {
+    opacity: .9;
+    cursor: pointer;
 }
 
 .info-button-icons {
