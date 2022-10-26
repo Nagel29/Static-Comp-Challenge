@@ -107,6 +107,17 @@ nav {
     width: 100%;
 }
 
+.checkbox[type="checkbox"] {
+    accent-color: #f79533;
+    width: 3vh;
+    height: 2.5vh;
+}
+
+.aside-icon-containers:hover input[type=checkbox] {
+    /* accent-color: #f37055; */
+    cursor: pointer;
+}
+
 .search-section {
     display: flex;
     height: 8%;
@@ -141,6 +152,17 @@ nav {
     margin-right: 10%;
 }
 
+.info-buttons {
+    width: 8vh;
+    height: 8vh;
+    border: gray solid 1vh;
+    border-radius: 50%;
+}
+
+.info-button-icons {
+    width: 2.5vh;
+}
+
 .title-and-location {
     width: 40%;
     margin: 4% 25% 7% 0%;
@@ -153,6 +175,14 @@ nav {
 .location-icon {
     height: 2vh;
     padding-right: .5%;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px;
+    width: 100%;
 }
 
 .graphs {
