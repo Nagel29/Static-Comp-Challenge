@@ -120,12 +120,19 @@ nav {
 
 .search {
     width: 80%;
+    font-size: 2.75vh;
 }
 
 .search-icons {
     padding: 2.5%;
     border-bottom: 1px solid grey;
     border-right: 1px solid grey;
+}
+
+.search-icons:hover {
+  background-color: #5274a3;
+  filter: invert(120%) sepia(20%) saturate(169%) hue-rotate(180deg) brightness(90%) contrast(80%);
+  cursor: pointer;
 }
 
 .main {
