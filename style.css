@@ -16,6 +16,10 @@ h1, h2, h3 {
     font-size: 2.25vh;
 }
 
+h4 {
+    font-size: 2.3vh;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -79,7 +83,7 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 250% 250%;
-    -webkit-animation: gradient 5s ease infinite;
+    -webkit-animation: gradient 3s ease infinite;
     cursor: pointer;
 }
 
@@ -180,7 +184,7 @@ nav {
 
 .title-and-location {
     width: 40%;
-    margin: 4% 25% 7% 0%;
+    margin: 4% 25% 5.62% 0%;
 }
 
 .location-container {
@@ -198,6 +202,13 @@ nav {
     list-style-type: none;
     margin: 0px;
     width: 100%;
+}
+
+.nav:hover {
+    border-bottom: .75vh solid rgb(122, 152, 205);
+    cursor: pointer;
+    height: 100%;
+    font-weight: bold;
 }
 
 .graphs {
