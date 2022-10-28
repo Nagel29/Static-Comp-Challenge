@@ -5,7 +5,7 @@
 
 body {
     display: flex;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-width: 100vw;
     margin: 0px;
     background-color:#e9edf4
@@ -30,7 +30,7 @@ nav {
 
 .aside {
     color: #bbc3cb;
-    height: 100%;
+    height: auto;
     width: 14.5%;
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@ nav {
 
 .search-section {
     display: flex;
-    height: 8%;
+    height: 5%;
     width: 100%;
 }
 
@@ -149,7 +149,7 @@ nav {
 
 .info-and-nav {
     border-bottom: 1px solid grey;
-    height: 20%;
+    height: 30vh;
 }
 
 .info {
@@ -164,20 +164,17 @@ nav {
     padding-left: 6%;
 } */
 
-.info-buttons-active {
-     width: 14vh;
-     height: 8vh;
-     border: gray solid .6vh;
-     border-radius: 8vh;
-     opacity: .5;
-}
-
 .info-buttons {
-    width: 8vh;
-    height: 8vh;
+    width: 7vh;
+    height: 7vh;
     border: gray solid .6vh;
     border-radius: 50%;
     opacity: .5;
+}
+
+.active {
+    width: 18vh;
+    border-radius: 8vh;
 }
 
 .info-buttons:hover, .info-buttons-active:hover {
@@ -207,7 +204,7 @@ nav {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 0px;
+    margin: .4% 0% 0% 4%;
     width: 100%;
 }
 
@@ -220,29 +217,30 @@ nav {
 
 .analytics-and-job {
     background-color: #bbc3cb;
-    height: 72%;
+    height: 155vh;
     width: 100%;    
 }
 
 .analytics-container {
-    height: 35%;
+    height: 55vh;
     width: 100%;
     border-bottom: 1px black solid;
 }
 
 .job-links-container {
     width: 100%;
-    height: 65%;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
 }
 
 .job-description-section {
-    height: auto;
-    width: 55%;
+    /* height: auto; */
+    width: 60%;
     list-style-type: none;
     border: .15vh solid slategrey;
     padding: 0;
+    margin: 5% 0% 0% 5%;
     display: flex;
     flex-direction: column;
 }
