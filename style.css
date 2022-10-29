@@ -136,7 +136,7 @@ nav {
 }
 
 .search-icons:hover {
-  background-color: #5274a3;
+  background-color: #426d8e;;
   filter: invert(120%) sepia(20%) saturate(169%) hue-rotate(180deg) brightness(90%) contrast(80%);
   cursor: pointer;
 }
@@ -217,7 +217,7 @@ nav {
 
 .analytics-and-job {
     background-color: #bbc3cb;
-    height: 155vh;
+    height: auto;
     width: 100%;    
 }
 
@@ -229,27 +229,28 @@ nav {
 
 .job-links-container {
     width: 100%;
-    height: 100vh;
+    height: 125vh;
     display: flex;
     justify-content: space-around;
 }
 
 .job-description-section {
-    /* height: auto; */
     width: 60%;
     list-style-type: none;
-    border: .15vh solid slategrey;
-    background-color: #eaebe5;
+    /* border: .15vh solid slategrey; */
+    background-color: #f3f4f2;
     padding: 0;
-    margin: 5% 0% 0% 5%;
+    margin: 10vh 0vw 0vh 5vw;
     display: flex;
     flex-direction: column;
+    height: 109vh;
+    box-shadow: 1vh 1vh 1vh #8646b3;
 }
 
 .job {
     width: 100%;
-    height: 11.11%;
-    background-color: #eaebe5;
+    height: 11vh;
+    background-color: #f3f4f2;
     display: flex;
     align-items: center;
     color: #515b65;
@@ -257,12 +258,29 @@ nav {
 
 .job-category {
     width: 20%;
-    margin: 4vh;
+    height: 9vh;
+    padding: 4.5vh;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
 }
 
 .job-info {
     width: 80%;
-    margin: 4vh;
+    height: 9vh;
+    padding: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    height: 20vh;
+}
+
+.gart {
+    width: 4vh;
+    border-radius: 50%;
+    margin-left: 4vh;
 }
 
 .line {
@@ -274,14 +292,71 @@ nav {
 }
 
 .top {
-    background-color: #5d77a3;
+    background-color: #5d85a3;
     border-bottom: .15vh solid slategrey;
-    color: #ffffffd7;
+    color: #e3e7ec
+}
+
+.edit {
+    height: 4vh;
+    width: 9vh;
+    background-color: #6d8b97;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: .1vh dashed #c6cdd5;
+}
+
+.edit:hover {
+    background-color: #c0cace;
+    border: .1vh dashed #6d8b97;
+    color: #6d8b97;
+    cursor: pointer;
 }
 
 .links-container {
     width: 35%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social {
+    height: 7.5vh;
+    width: 42vh;
+    box-shadow: .5vh .5vh 1vh #3c393e;
+    margin: 0vh 3vw 3vh 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 2.1vh;
+    color: #ffffff;
+}
+
+.social:hover {
+    cursor: pointer;
+    filter: invert(103%) sepia(16%) saturate(169%) hue-rotate(169deg) brightness(90%) contrast(62%);
+}
+
+.social-icons {
+    width: 9%;
+    padding: 2%;
+    margin: 0vh 3vw 0vh 2vw;
+    filter: invert(100%) sepia(4%) saturate(12%) hue-rotate(26deg) brightness(103%) contrast(100%);
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #00acee;
+}
+
+.linkedin {
+    background-color: #0072b1;
 }
 
 .flex {
